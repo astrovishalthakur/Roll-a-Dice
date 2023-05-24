@@ -1,0 +1,57 @@
+body{
+    background-color: #526D82;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1, h3{
+    color: rgb(70, 229, 176);
+    font-family: 'Eczar', serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diceholder{
+    width: 500px;
+    margin-top: 0;
+}
+
+
+.dice1{
+    float: left;
+}
+.dice2{
+    float: right;
+}
+
+img{
+    height: 200px;
+}
+
+button{
+    background-color: rgb(70, 229, 176);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Kalam';
+    font-weight: 700;
+    color: #526D82;
+    border-radius: 5px;
+    cursor: pointer;
+}
